@@ -4,13 +4,13 @@ This project implements a deep learning model using CNNs to detect the presence 
 
 ---
 
-## 🔍 Project Goal
+##  Project Goal
 
 Build a supervised classification model that predicts **whether a planet transits its star** (i.e., is detectable via transit method), using a set of orbital and physical parameters of exoplanets.
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - **Model Type**: Convolutional Neural Network (CNN)
 - **Input**: Structured planetary system data or engineered light curve–like features
@@ -19,7 +19,7 @@ Build a supervised classification model that predicts **whether a planet transit
 
 ---
 
-## 📊 Features Used
+##  Features Used
 
 Typical features used in the dataset:
 - `pl_orbper`: Orbital period
@@ -34,7 +34,7 @@ Typical features used in the dataset:
 
 ---
 
-## 🧾 File Structure
+##  File Structure
 
 - `cnn_exoplanet_detection.ipynb` – Training notebook
 - `data/` – Planetary dataset (CSV from NASA Exoplanet Archive)
